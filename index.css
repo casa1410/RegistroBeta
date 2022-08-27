@@ -1,0 +1,122 @@
+@font-face {
+    font-family: AllAmerican;
+    src: url("Recursos/AllAmerican.ttf");
+}
+
+#Titulo {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    font-family: AllAmerican;
+    color: aliceblue;
+    text-shadow: 1px 4px 4px black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#Boton1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-family: AllAmerican;
+    color: aliceblue;
+    width: auto;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.album{
+    background-image: url(Recursos/EGS_TowerofFantasy_HOTTASTUDIO_S1_2560x1440-7332c6b84fdf52884c1a0ae1eb6830e1.jpg);
+    position: relative;
+    -webkit-box-shadow: 0px -17px 18px 11px rgba(0,0,0,0.91); 
+    box-shadow: 0px -17px 18px 11px rgba(0,0,0,0.91);
+}
+
+@media (min-width:320px) {
+    #Boton1 {
+        font-size: 10px;
+        top: 30%;
+        position: absolute;
+    }
+    #Titulo{
+        font-size: 14px;
+        top: 28%;
+        position: absolute;
+    }
+}
+
+@media (min-width:480px) {
+    #Boton1 {
+        font-size: 14px;
+        top: 30%;
+        position: absolute;
+    }
+    #Titulo{
+        font-size: 25px;
+        top: 27%;
+        position: absolute;
+    }
+}
+
+@media (min-width:600px) {
+    #Boton1 {
+        font-size: 22px;
+        top: 30%;
+        position: absolute;
+    }
+    #Titulo{
+        font-size: 32px;
+        top: 26%;
+        position: absolute;
+    }
+}
+
+@media (min-width:801px) {
+    #Boton1 {
+        font-size: 30px;
+        top: 34%;
+        position: absolute;
+    }
+    #Titulo{
+        font-size: 40px;
+        top: 29%;
+        position: absolute;
+    }
+}
+
+@media (min-width:1025px) {
+    #Boton1 {
+        font-size: 40px;
+        top: 40%;
+        position: absolute;
+    }
+    #Titulo{
+        font-size: 50px;
+        top: 32%;
+        position: absolute;
+    }
+}
+
+@media (min-width: 1281px) {
+    #Boton1 {
+        font-size: 50px;
+        top: 45%;
+        position: absolute;
+    }
+    #Titulo{
+        font-size: 60px;
+        top: 36%;
+        position: absolute;
+    }
+}
+
+.vh-100{
+    background-image: url(Recursos/thumb-1920-1014726.jpg);
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
